@@ -3,5 +3,11 @@
 }
 
 .row .col-md-2 h3{
-   font-family: Verdana, Geneva, Tahoma, sans-serif 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center; 
+  /* padding: 12px; ESSAYER DE CENTRER EN HAUTEUR*/
+
+  }
+.row .col-md-2{
+    background-color:#80BFFF;
 }
