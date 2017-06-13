@@ -1,12 +1,7 @@
 .greybottom{
     border-bottom: 1px solid #80BFFF;
 }
-.row .col-md-2 h3{
-<<HEAD
-   font-family: sans-serif;
-   text-align: center; 
-  /* padding: 12px; ESSAYER DE CENTRER EN HAUTEUR*/
-  }
+
 .row .col-md-2 h3:hover{
    color:whitesmoke;   
         /*  */
