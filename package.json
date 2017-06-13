@@ -1,0 +1,22 @@
+{
+  "name": "site-enfant-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sophieranoux/site-enfant-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sophieranoux/site-enfant-/issues"
+  },
+  "homepage": "https://github.com/Sophieranoux/site-enfant-#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
