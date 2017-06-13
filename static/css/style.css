@@ -17,9 +17,12 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif 
 }
 
-a:visited { 
-    color: black;
+a {     
     text-decoration: none;
+}
+a.underlined
+{
+   text-decoration:underline;
 }
 
 .img-character {
