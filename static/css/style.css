@@ -17,12 +17,8 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif 
 }
 
-a {     
-    text-decoration: none;
-}
-a.underlined
-{
-   text-decoration:underline;
+#page_actuelle {
+    background-color: brown;
 }
 
 .img-character {
