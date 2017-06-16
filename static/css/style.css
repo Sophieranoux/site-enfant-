@@ -17,6 +17,10 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif 
 }
 
+#espace_joli{
+    height: 15px;
+}
+
 #page_actuelle {
     background-color: brown;
 }
