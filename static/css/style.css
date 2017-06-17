@@ -10,6 +10,9 @@
 
 .row .col-md-2{
     background-color:#80BFFF;
+    text-align: center;
+    margin: auto;
+    font-family: Quicksand, sans-serif;
 }
 
 .row .col-md-2:hover{
@@ -19,6 +22,11 @@
 
 #espace_joli{
     height: 15px;
+}
+
+#carte_google{
+    float: right;
+
 }
 
 #page_actuelle {
