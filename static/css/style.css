@@ -20,6 +20,58 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif 
 }
 
+
+.dropbtn:hover{
+    background-color: lightgreen;
+    color: lightgreen;
+}
+
+#page_actuelle:hover{
+    background-color: lightgreen;
+    color: lightgreen;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown .dropbtn{
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    padding: 0; 
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+
+
 #espace_joli{
     height: 15px;
 }
