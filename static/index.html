@@ -163,7 +163,14 @@
      <div><button onclick="document.querySelector('input').click()">Parcourir</button></div>
 <input style="visibility: collapse; width: 0px;" type="file" onchange="upload(this.files[0])">
 
-  
+  <form name="_xclick" action="https://www.paypal.com/fr/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="me@mybusiness.com">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="item_name" value="Ours en peluche">
+<input type="hidden" name="amount" value="12.99">
+<input type="image" src="http://www.paypal.com/fr_FR/i/btn/x-click-but01.gif" border="0" name="submit" alt="Effectuez vos paiements via PayPal : une solution rapide, gratuite et sécurisée">
+</form>
 
 </body>
 
