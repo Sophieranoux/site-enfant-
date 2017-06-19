@@ -1,6 +1,14 @@
 .greybottom{
     border-bottom: 1px solid #80BFFF;
 }
+.page-entière{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/1d/ed/e2/1dede2ae1e4f9fa737c25274ccd2df18.jpg") ;
+    margin: 60px;
+}
+
+.adm{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 .row .col-md-2 h3:hover{
    color:whitesmoke;   
@@ -16,7 +24,7 @@
 }
 
 .row .col-md-2:hover{
-    background-color:lightgreen;
+    background-color:#E0FFFF;
    font-family: Verdana, Geneva, Tahoma, sans-serif 
 }
 
@@ -82,7 +90,7 @@
 }
 
 #page_actuelle {
-    background-color: brown;
+    background-color:#FFA500;
 }
 
 .img-character {
@@ -90,6 +98,22 @@
 }
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
+.rond-de-couleur-rose-pâle {
+    width: 80px; height: 80px ; border-radius: 80px ; margin: 20px ;
+    background-color:#FFB6C1
+}
+.rond-de-couleur-bleu-pâle{
+    width: 80px; height: 80px ; border-radius: 80px ; margin: 20px ;
+    background-color:#87CEEB
+}
+.rond-de-couleur-vert-pâle {
+    width: 80px; height: 80px ; border-radius: 80px ; margin: 20px ;
+    background-color:#90EE90
+}
+.rond-de-couleur-orange {
+    width: 80px; height: 80px ; border-radius: 80px ; margin: 20px ;
+    background-color:#F4A460
+}
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
@@ -275,5 +299,9 @@ input:focus {
 }
 .container-form {
     color: #008080;
-    background-color: #E0FFFF
+    background-color: #E0FFFF;
+}
+
+.question{
+    margin: 30px
 }
