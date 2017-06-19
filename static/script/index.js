@@ -190,4 +190,3 @@ check['country'] = function() {
     });
 
 })();
-deactivateTooltips();
