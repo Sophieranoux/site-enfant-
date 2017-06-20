@@ -22,3 +22,9 @@ app.get("/team", function(req, res){
 app.listen("3129", function(err){
     console.log("Application ready listening on port 3129");
 });
+
+var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(bodyParser.json());
+app.use(express.static("static"));
