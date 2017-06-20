@@ -3,6 +3,10 @@ var app = express();
 
 app.use(express.static("static"));
 
+app.post("/action", function(req,res){
+/** express bodyparser */
+});
+
 app.get("/team", function(req, res){
     res.sendFile('/static/team.html',{
             root: __dirname ,
